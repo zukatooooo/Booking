@@ -3,9 +3,9 @@ package com.example.demo.model;
 import java.util.UUID;
 
 public class Hotel {
-    private UUID id;
-    private String name;
-    private int maxCapacity;
+    private final UUID id;
+    private final String name;
+    private final int maxCapacity;
 
     public Hotel(UUID id, String name, int maxCapacity) {
         this.id = id;

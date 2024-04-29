@@ -1,9 +1,9 @@
 package com.example.demo.model;
 
 public class Room {
-    private int id;
-    private int hotelId;
-    private int roomNumber;
+    private final int id;
+    private final int hotelId;
+    private final int roomNumber;
     private boolean isBooked = false;
 
     public Room(int id, int hotelId, int roomNumber, boolean isBooked) {
