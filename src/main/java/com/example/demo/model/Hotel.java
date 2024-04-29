@@ -1,17 +1,19 @@
 package com.example.demo.model;
 
+import java.util.UUID;
+
 public class Hotel {
-    private int id;
+    private UUID id;
     private String name;
     private int maxCapacity;
 
-    public Hotel(int id, String name, int maxCapacity) {
+    public Hotel(UUID id, String name, int maxCapacity) {
         this.id = id;
         this.name = name;
         this.maxCapacity = maxCapacity;
     }
 
-    public int getId() {
+    public UUID getId() {
         return id;
     }
 
